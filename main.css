@@ -108,7 +108,7 @@ element.style{
     background-size: cover;
 }
 
-article, aside, details, figcaption, figure, footer, header, hgroup, main, nav, section, summary{
+article, aside, details, figcaption, figure, header, hgroup, main, nav, section, summary{
     display: block;
 }
 
@@ -119,7 +119,7 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, nav, 
 }
 
 user agent stylesheet
-article, aside, footer, header, hgroup, main, nav, section {
+article, aside, header, hgroup, main, nav, section {
     display: block;
 }
 
@@ -135,14 +135,28 @@ div.image-container {
 .column-center{
     width: 30%;
     float: inherit;
+
 }
 
 .column-right{
-    width: 30%
+    width: 30%;
     float: inherit;
+
 }
 
 #nav
 {
     float: left;
+}
+
+
+footer {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  padding: 1rem;
+  background-color: #efefef;
+  text-align: center;
+
 }

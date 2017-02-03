@@ -10,8 +10,8 @@ body {background: #231f20;
     font-size: 16px;
     line-height: 1.5;
     margin: 0 auto;
-    width: 1200px;
-    padding: 2em 2em 4em;}  
+    width: 100%;
+    padding: 2em 4em 0em 4em;}  
 
 #nav{
     margin-bottom: 50px;
@@ -161,19 +161,6 @@ a {
     margin-right: 10px;
 }
 
-.footer{
-    color: whitesmoke;
-    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-    font-size: 13px;
-    line-height: 1.5;
-    margin-left: 100%;
-    width: -100%;
-    padding: 0;
-    margin-left: 70%;
-    text-align: left;
-    position: absolute;
-    bottom: -50px;
-}
 
 /*contact*/
 nav {
@@ -188,4 +175,17 @@ nav {
 
 nav{
     display:block;
+}
+
+footer {
+right: 0;
+  bottom: 0;
+  left: 0;
+  padding: 1rem;
+    border-top-style: solid;
+    border-top-color: darkgrey;
+  /*background-color: lightslategrey;*/
+  text-align: center;
+width: 100%;
+
 }
